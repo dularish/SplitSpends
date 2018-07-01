@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="add_button_size">40dp</dimen>
+    <dimen name="delete_button_size">40dp</dimen>
+    <dimen name="output_text_view_bottom_padding">50dp</dimen>
+    <dimen name="results_outputview_padding">20dp</dimen>
+    <dimen name="results_line_spacing">10dp</dimen>
+    <dimen name="share_button_padding">20dp</dimen>
+    <dimen name="results_outputview_padding_tab_header">3dp</dimen>
+    <dimen name="parentcardviewtextsize">20sp</dimen>
+    <dimen name="childcardviewtextsize">18sp</dimen>
+    <dimen name="childcardviewtextpadding">10dp</dimen>
+    <dimen name="button_size_child">35dp</dimen>
+    <dimen name="layout_margin_end_parentview">20sp</dimen>
+    <dimen name="linklabelmargintop">20dp</dimen>
+    <dimen name="registeruserheadingtextsize">30sp</dimen>
+    <dimen name="registeruserheadingbottompadding">10dp</dimen>
+    <dimen name="signinuserheadingtextsize">30sp</dimen>
+    <dimen name="signinuserheadingbottompadding">10dp</dimen>
+    <dimen name="list_cardview_height">60dp</dimen>
+    <dimen name="list_cardview_height_divided_by_2">30dp</dimen>
+</resources>

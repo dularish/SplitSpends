@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <dularish.splitspends.NonScrollExpandableListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="20sp"
+        android:dividerHeight="20sp"
+        android:divider="@color/cardview_light_background"
+        android:childDivider="#00000000"
+        android:scrollbars="vertical"
+        android:groupIndicator="@null"
+        android:id="@+id/expandableListView"
+        android:layout_marginBottom="20sp"
+        android:background="#FFFFFF">
+
+    </dularish.splitspends.NonScrollExpandableListView>
+
+    <!--
+<ExpandableListView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:scrollbars="vertical"
+    android:groupIndicator="@null"
+    android:id="@+id/expandableListView"
+    android:layout_marginBottom="20sp"
+    >
+
+</ExpandableListView> -->
+<Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/add_contributor_button_text"
+    android:textColor="@color/colorAccent"
+android:id="@+id/addContributor"/>
+<Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/calculate_amount_button"
+    android:textColor="@color/colorAccent"
+android:id="@+id/calculateBtn"
+    android:layout_marginBottom="30dp"
+    />
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/savetodbstring"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/savetodbbutton"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loadfromdbstring"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/loadfromdbbutton"/>
+    </LinearLayout>
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=""
+android:paddingBottom="@dimen/output_text_view_bottom_padding"
+android:id="@+id/outputview"/>
+</LinearLayout>
+</ScrollView>

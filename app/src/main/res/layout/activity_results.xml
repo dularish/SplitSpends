@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/ResultsLinearLayout"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <!--
+    <TextView
+        android:id="@+id/resultsActivity_Output_View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sampleOutputText"
+        android:textStyle="bold"
+        android:padding="@dimen/results_outputview_padding"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="@dimen/results_line_spacing"
+        android:textColor="@color/colorPrimaryDark"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/whatsapp_share_button"
+        android:text="@string/whatsapp_share_button_text"
+        android:layout_margin="@dimen/share_button_padding"
+        android:textColor="@color/colorAccent"/> -->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/sliding_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="fixed" />
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/vPager">
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

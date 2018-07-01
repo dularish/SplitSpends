@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Split Spends</string>
+    <string name="name_hint">Name</string>
+    <string name="example_name">Rick</string>
+    <string name="amount_hint">Amount</string>
+    <string name="example_amount">1500</string>
+    <string name="add_contributor_button_text">Add another Contributor</string>
+    <string name="calculate_amount_button">Calculate the amount</string>
+    <string name="sampleOutputText">Rick should pay 1000 to John\n
+        Indira should pay 2000 to Dularish\n
+        John should pay 2000 to Dularish\n
+        This is a very long statement to test how Textview would render this statement,
+        would the right and left padding be smaller? or would the line spacing be different from other items?</string>
+    <string name="whatsapp_share_button_text">Share the results in Whatsapp</string>
+    <string name="bulletText">\u2022</string>
+    <string name="tab_1_tab_header_text">Split Spends Summary :</string>
+    <string name="tab_2_tab_header_text">Split Spends Calculation Details :</string>
+    <string name="purpose_hint">Food</string>
+    <string name="default_pupose_entry">Default</string>
+    <string name="savetodbstring">Save To Database</string>
+    <string name="loadfromdbstring">Load From Database</string>
+    <string name="hintforuseremail">Enter your email Id</string>
+    <string name="hintforpassword">Enter your password</string>
+    <string name="registernewuserbuttontext">Register user</string>
+    <string name="alreadyanusersignintextviewtext"><u>Already an user? Sign In...</u></string>
+    <string name="gotoofflineversiontextview"><u>Try using the offline version of the application</u></string>
+    <string name="registerpageheadertext">Register User</string>
+    <string name="signinpageheadertext">Sign In</string>
+    <string name="signinuserbuttontext">Sign In</string>
+    <string name="example_list_header">List Header</string>
+</resources>

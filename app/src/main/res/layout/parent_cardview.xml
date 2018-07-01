@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardview_item_layout_id"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:layout_margin="15sp"
+
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="#ffcdd2"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/linearlayout"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/parentListView"
+                android:layout_width="0dp"
+                android:layout_weight="0.15"
+                android:textAlignment="center"
+                android:id="@+id/namebox"
+                android:layout_height="wrap_content"
+                android:hint="@string/name_hint"
+                android:text="@string/example_name" />
+            <TextView
+                style="@style/parentListView"
+                android:layout_width="0dp"
+                android:layout_weight="0.10"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/amountbox"
+                android:hint="@string/amount_hint"
+                android:text="@string/example_amount"
+                />
+            <!--
+            <ImageButton
+                android:id="@+id/addbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/add_button_size"
+                android:src="@drawable/addbutton"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:background="@color/cardview_light_background"
+                />-->
+            <ImageButton
+                android:id="@+id/deletebutton"
+                android:layout_width="wrap_content"
+
+                android:layout_height="35dp"
+                android:adjustViewBounds="true"
+                android:background="#ffcdd2"
+                android:layout_gravity="center_vertical"
+                android:cropToPadding="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/deletebutton_resized2"
+                android:textAlignment="center" />
+
+            <ImageButton
+                android:id="@+id/dropdownbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/delete_button_size"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/dropdown_downfacing"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:background="@null"
+                />
+            <ImageButton
+                android:id="@+id/outereditbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/delete_button_size"
+                android:src="@drawable/appbar_draw_pencil"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:background="#ffcdd2"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

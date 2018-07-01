@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "494383436677",
+    "firebase_url": "https://split-spends.firebaseio.com",
+    "project_id": "split-spends",
+    "storage_bucket": "split-spends.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494383436677:android:c8e84d0b3d3de61d",
+        "android_client_info": {
+          "package_name": "dularish.splitspends"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494383436677-vlaq4s8a5d3u1b7offjrfgr1rma3it1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dularish.splitspends",
+            "certificate_hash": "7b6c70bda04b656d34d8c694fa6ea2626861ba3b"
+          }
+        },
+        {
+          "client_id": "494383436677-j2lddj3ifr13ntc30j1534lb67o0s26k.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "494383436677-so2euade5glo8ijh5h857d1j2knl9k0e.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "494383436677-e4nqfovj6t1rmuu2mg2gdgcb1gpdodu4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dularish.splitspends",
+            "certificate_hash": "0f2772e36821d2862dc6367f52893db5280fbcd1"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXUNo59OBddPwxEgGv-C1qw1FKqvUUPMg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

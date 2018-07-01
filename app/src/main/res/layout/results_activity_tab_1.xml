@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ResultsLinearLayout_tab_1"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+        android:id="@+id/resultsActivity_tab_header_View_tab_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tab_1_tab_header_text"
+        android:textStyle="bold"
+        android:padding="@dimen/results_outputview_padding_tab_header"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="@dimen/results_line_spacing"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/resultsActivity_Output_View_tab_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sampleOutputText"
+        android:textStyle="bold"
+        android:padding="@dimen/results_outputview_padding"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="@dimen/results_line_spacing"
+        android:textColor="@color/colorPrimaryDark"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/whatsapp_share_button_tab_1"
+        android:text="@string/whatsapp_share_button_text"
+        android:layout_margin="@dimen/share_button_padding"
+        android:textColor="@color/colorAccent"/>
+</LinearLayout>
